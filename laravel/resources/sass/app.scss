@@ -43,7 +43,7 @@ body {
     background: #634171;
     
     .container {
-        background-color: #3b3b3b;
+        background-color: #433243;
         width: 1080px;
         margin: 0 auto;
         height: 100%;
@@ -54,13 +54,17 @@ body {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        a{
+            color: white;
+            text-decoration: none;
+        }
     }
     
     .cds-container > div {
         flex-basis: calc(100% / 4);
         flex-grow: 0;
         margin: 30px;
-        background: #421443;
+        background: #270128;
         color: white;
         text-align: center;
         padding: 20px;
